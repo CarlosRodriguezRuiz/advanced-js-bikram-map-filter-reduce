@@ -194,3 +194,11 @@ let result9 = books.reduce((acc, libro) => {
   return acc;
 }, 0);
 console.log(result9);
+
+
+
+let result10 = books.filter((libro) => {
+  return libro.category == "code";
+});
+
+console.log(result10);
